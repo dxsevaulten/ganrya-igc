@@ -1,0 +1,13 @@
+numpy
+pyqt6
+PyOpenGL
+pyqtgraph
+trimesh
+scipy
+networkx
+Pillow
+msgpack
+watchdog
+pytest
+pytest-timeout
+pytest-cov
