@@ -41,3 +41,9 @@ jobs:
           token: ${{ secrets.CODECOV_TOKEN }}
           file: ./coverage.xml
           fail_ci_if_error: false
+
+      - name: Lint with Ruff
+        run: ruff check ganrya_igc/
+
+      - name: Type check with mypy
+        run: mypy ganrya_igc/

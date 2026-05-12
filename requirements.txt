@@ -11,3 +11,5 @@ watchdog
 pytest
 pytest-timeout
 pytest-cov
+ruff
+mypy
