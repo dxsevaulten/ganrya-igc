@@ -1,4 +1,61 @@
+```
+# Python
 __pycache__/
 *.pyc
-venv_skp_engine/
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.ENV
+.ENV.local
 .env
+.env.local
+.env.*
+*.env.*
+*.env.local.*
+
+# Testing
+.coverage
+coverage/
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+
+# Build and distribution artifacts
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Thumbs.db:encryptable
+
+# Logs
+*.log
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Compiled files
+*.class
+*.o
+*.a
+*.obj
+*.so
+*.dll
+*.exe
+*.out
+```
