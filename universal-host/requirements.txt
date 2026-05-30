@@ -1,0 +1,24 @@
+# Universal Host - Requirements
+# Fase 0 & 1 Dependencies
+
+# GUI Framework
+PyQt6>=6.4.0
+
+# Windows API Access (Critical for embedding)
+pywin32>=305; sys_platform == 'win32'
+
+# Process Management
+psutil>=5.9.0
+
+# Image Processing (Icon extraction)
+Pillow>=9.4.0
+
+# System Theme Detection
+darkdetect>=0.8.0
+
+# Testing Framework
+pytest>=7.2.0
+pytest-cov>=4.0.0
+
+# Future: Accessibility & Decoding (Fase 2+)
+# uiautomation>=2.0.18
