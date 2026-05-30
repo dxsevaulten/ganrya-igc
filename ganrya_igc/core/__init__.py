@@ -1,1 +1,0 @@
-# Megaplan 1: Arsitektur Inti & Desain Sistem
